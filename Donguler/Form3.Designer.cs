@@ -32,7 +32,6 @@
             this.btnSag = new System.Windows.Forms.Button();
             this.btnSol = new System.Windows.Forms.Button();
             this.lst2 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lst1
@@ -73,21 +72,11 @@
             this.lst2.Size = new System.Drawing.Size(120, 173);
             this.lst2.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(140, 96);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 194);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSol);
             this.Controls.Add(this.btnSag);
             this.Controls.Add(this.lst2);
@@ -96,7 +85,6 @@
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -106,6 +94,5 @@
         private System.Windows.Forms.Button btnSag;
         private System.Windows.Forms.Button btnSol;
         private System.Windows.Forms.ListBox lst2;
-        private System.Windows.Forms.Label label1;
     }
 }

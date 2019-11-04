@@ -32,6 +32,12 @@ namespace Donguler
             {
                 lst2.Items.Add(item);
             }
+
+
+            while (lst1.SelectedItems.Count != 0)
+            {
+                lst1.Items.Remove(lst1.SelectedItems[0]);
+            }
         }
 
         private void btnSol_Click(object sender, EventArgs e)
@@ -39,6 +45,10 @@ namespace Donguler
             foreach (string item in lst2.SelectedItems)
             {
                 lst1.Items.Add(item);
+            }
+            while (lst2.SelectedItems.Count != 0)
+            {
+                lst2.Items.Remove(lst2.SelectedItems[0]);
             }
         }
     }
