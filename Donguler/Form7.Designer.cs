@@ -45,7 +45,7 @@
             this.btn1.TabIndex = 0;
             this.btn1.Text = "YAN YANA X";
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.Btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -55,6 +55,7 @@
             this.btn2.TabIndex = 0;
             this.btn2.Text = "ALT ALTA X";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
@@ -73,6 +74,7 @@
             this.btn4.TabIndex = 0;
             this.btn4.Text = "X İLE DİKKENAR ÜÇGEN";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
@@ -82,10 +84,12 @@
             this.btn5.TabIndex = 0;
             this.btn5.Text = "ÇARPIM TABLOSU";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.Yellow;
             this.label1.Location = new System.Drawing.Point(13, 214);
             this.label1.Name = "label1";
