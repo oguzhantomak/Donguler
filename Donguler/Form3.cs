@@ -32,8 +32,6 @@ namespace Donguler
             {
                 lst2.Items.Add(item);
             }
-
-
             while (lst1.SelectedItems.Count != 0)
             {
                 lst1.Items.Remove(lst1.SelectedItems[0]);
