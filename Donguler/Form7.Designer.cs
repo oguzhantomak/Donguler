@@ -65,6 +65,7 @@
             this.btn3.TabIndex = 0;
             this.btn3.Text = "X İLE KARE";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn4
             // 

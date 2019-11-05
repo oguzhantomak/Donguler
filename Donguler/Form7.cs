@@ -33,23 +33,25 @@ namespace Donguler
         }
         private void btn2_Click(object sender, EventArgs e)
         {
-            string deger = "";
-            for (int i = 0; i <= 5; i++)
+            string deger = "X";
+            for (int i = 1; i < 5; i++)
             {
-                //deger = deger+"\n";
-                //for (int y = 5; y >=5-i ; y++)
-                //{
-                //    deger = "*";
-                //}
-                //deger = deger+"*";
-
-                for (int y = 5; y <= i; y++)
+                deger = deger + "\n" + "X";
+                label1.Text = deger;
+            }
+        }
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            string deger = "";
+            for (int i = 1; i <= 5; i++)
+            {
+                deger = deger + "\n";
+                label1.Text = deger;
+                for (int y = 0; y <= 5; y++)
                 {
                     deger = deger + "*";
-                    label1.Text = deger + "\n";
-
+                    label1.Text = deger;
                 }
-                label1.Text = deger + "\n";
             }
         }
 
@@ -91,6 +93,6 @@ namespace Donguler
             }
         }
 
-
+        
     }
 }
